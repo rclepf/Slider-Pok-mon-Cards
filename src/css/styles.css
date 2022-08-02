@@ -1,0 +1,36 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    background-image: url(../imagens/fundo-site.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 100vh;
+}
+
+.cabecalho {
+    background-color: red;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+    padding-top: 50px;
+}
+
+.cabecalho .titulo {
+    color: #f1ecff;
+}
+
+.cabecalho .pokebola {
+    width: 25px; 
+    height: 25px;
+}
+
+.pokemon-slider {
+    background-color: aquamarine;
+    display: flex;
+}
+
+.lista-pokemons {
+    background-color: blue;
+    width: 310px;
+    height: 520px;
+}
