@@ -12,7 +12,7 @@ function mostrarCartao(indiceCartao) {
   cartoes[indiceCartao].classList.add("selecionado");
 }
 
-btnAvancar.addEventListener("click", function () {
+btnAvancar.addEventListener("click", () => {
   if (cartaoAtual === cartoes.length - 1) return;
 
   esconderCartaoSelecionado();
@@ -21,7 +21,7 @@ btnAvancar.addEventListener("click", function () {
   mostrarCartao(cartaoAtual);
 });
 
-btnVoltar.addEventListener("click", function () {
+btnVoltar.addEventListener("click", () => {
   if (cartaoAtual === 0) return;
 
   esconderCartaoSelecionado();
